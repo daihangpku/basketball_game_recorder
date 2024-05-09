@@ -5,23 +5,23 @@ class Player {
 public:
 	string name;
 	void get_score(int pts, int time, int num_of_quarter) {}
-	void faul(int a, char b, int c) {};
+	void get_foul(int a, char b, int c) {};
 };
 
 class Headcoach;
 class Team {
 public:
 	string name;
-	bool is_first_team;                                                             //µÚÒ»Ö§¶Ó=1,µÚ¶şÖ§¶Ó=0
-	Player* players[12];															//µÚÒ»¸öÇòÔ±Ö¸ÕëÎªplayer[0]
-	short present_player[13] = {0};                                                 //³õÊ¼»¯Îª0,1ÔÚ³¡,0²»ÔÚ³¡,-1±»·£ÏÂ
+	bool is_first_team;                                                             //ç¬¬ä¸€æ”¯é˜Ÿ=1,ç¬¬äºŒæ”¯é˜Ÿ=0
+	Player* players[12];															//ç¬¬ä¸€ä¸ªçƒå‘˜æŒ‡é’ˆä¸ºplayer[0]
+	short present_player[13] = {0};                                                 //åˆå§‹åŒ–ä¸º0,1åœ¨åœº,0ä¸åœ¨åœº,-1è¢«ç½šä¸‹
 	Headcoach* head_coach;
-	int score_of_each_quarter[5];													//µÚÒ»½ÚµÃ·ÖÎªscore_of_each_quarter[0]
-	int team_faul_time[5];                                                          //µÚÒ»½Ú·¸¹æÊıÎ»team_faul_time[0]
-	void faul(Player* _player, int a, char b, int c);
-	void get_score(Player* get_score_player,int pts,int mytime,int num_of_quarter) {  //²ÎÊıË³Ğò·ÂÕÕplayer£¬Ç°ÖÃplayerÖ¸Õë
+	int score_of_each_quarter[5];													//ç¬¬ä¸€èŠ‚å¾—åˆ†ä¸ºscore_of_each_quarter[0]
+	int team_faul_time[5];                                                          //ç¬¬ä¸€èŠ‚çŠ¯è§„æ•°ä½team_faul_time[0]
+	void get_foul(Player* _player, int a, char b, int c);
+	void get_score(Player* get_score_player,int pts,int mytime,int num_of_quarter) {  //å‚æ•°é¡ºåºä»¿ç…§playerï¼Œå‰ç½®playeræŒ‡é’ˆ
 		get_score_player->get_score(pts, mytime, num_of_quarter);
-		score_of_each_quarter[num_of_quarter] += pts;                               //µÚÒ»½Ú¶ÔÓ¦µÄnum_of_quarter=0
+		score_of_each_quarter[num_of_quarter] += pts;                               //ç¬¬ä¸€èŠ‚å¯¹åº”çš„num_of_quarter=0
 	}
 	int first_half_timeout;
 	int second_half_timeout;
@@ -50,9 +50,9 @@ int Team::total_score() {
 	}
 	return total;
 }
-void Team::faul(Player* _player, int a, char b, int c) {
+void Team::get_foul(Player* _player, int a, char b, int c) {
 	team_faul_time[c]++;
-	_player->faul(a, b, c);
+	_player->get_foul(a, b, c);
 	return;
 }
 
