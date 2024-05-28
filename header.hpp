@@ -1,10 +1,12 @@
+#ifndef Header
+#define Header
 #include<iostream>
 #include<cstring>
 #include<vector>
 #include<utility>
 
 using namespace std;
-int mytime;
+//int mytime;
 
 class Game{
     public:
@@ -24,8 +26,9 @@ class Foul{
     public:
     int penalty;
     char type;
+    int time;
     Foul(){}
-    Foul(int _penalty,char _type):penalty(_penalty),type(_type){}
+    Foul(int _penalty,char _type,int _time):penalty(_penalty),type(_type),time(_time){}
 };
 class Player{
 public:
@@ -52,8 +55,8 @@ public:
         total_score+=_pts;
         return;
     }
-    void get_foul(int _penalty,char _type,int _num_of_quarter){//球员犯规
-        foul[_num_of_quarter-1].push_back(Foul(_penalty,_type));
+    void get_foul(int _penalty,char _type,int _time,int _num_of_quarter){//球员犯规
+        foul[_num_of_quarter-1].push_back(Foul(_penalty,_type,_time));
         total_foul++;
         if(_type=='T'||_type=='U'){
             special_foul++;
@@ -73,11 +76,11 @@ class Headcoach{
     int total_foul;//总犯规
     int special_foul_B;
     int special_foul_C;
-    void get_foul(int _penalty,char _type,int _num_of_quarter){//教练犯规
+    void get_foul(int _penalty,char _type,int _time,int _num_of_quarter){//教练犯规
         if(_type=='P'){
             //报错，教练不可能是P
         }
-        foul[_num_of_quarter-1].push_back(Foul(_penalty,_type));
+        foul[_num_of_quarter-1].push_back(Foul(_penalty,_type,_time));
 
         total_foul++;
         if(_type=='C'||_type=='U'){
@@ -112,12 +115,12 @@ public:
 	int score_of_each_quarter[5];													//第一节得分为score_of_each_quarter[0]
 	int team_foul_cnt[5];                                                          //第一节犯规数位team_faul_cnt[0]
     int total_team_score;
-	void get_foul(Player* _player,int _penalty,char _type,int _num_of_quarter){
+	void get_foul(Player* _player,int _penalty,char _type,int _time,int _num_of_quarter){
 	team_foul_cnt[_num_of_quarter-1]++;
         if(team_foul_cnt[_num_of_quarter-1]>=4){
             //
         }
-	    _player->get_foul(_penalty,_type,_num_of_quarter);
+	    _player->get_foul(_penalty,_type,_time,_num_of_quarter);
 	    return;
     }
 	void get_score(Player* get_score_player,int pts,int mytime,int num_of_quarter) {  //参数顺序仿照player，前置player指针
@@ -152,11 +155,12 @@ public:
 class Event{
     public:
     string event_type;
-    pair<int,int> event_time;
+    pair<int,int> event_time;//前time 后quarter
     Event(string _event_type,pair<int,int> _event_time){
         event_type=_event_type;
         event_time=_event_time;
     }
+    virtual void Print()=0;
     
 };
 class Score_event:public Event{
@@ -168,6 +172,9 @@ class Score_event:public Event{
         player_num_in_list=_player_num_in_list;
         players_team=_players_team;
         pts=_pts;
+    }
+    void Print(){
+        cout<<event_type<<" "<<
     }
 };
 class Foul_event:public Event{
@@ -188,3 +195,4 @@ class Timeout_event:public Event{
         team=_team;
     }
 };
+#endif
