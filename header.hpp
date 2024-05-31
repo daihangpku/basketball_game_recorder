@@ -58,13 +58,13 @@ public:
         cout << name << " " << num << endl;
     }
     void get_score(int _pts,int _time,int _num_of_quarter){//球员得分
-        points[_num_of_quarter-1].push_back(Score(_pts,_time));
-        sum_score_of_quarter[_num_of_quarter-1]+=_pts;
+        points[_num_of_quarter].push_back(Score(_pts,_time));
+        sum_score_of_quarter[_num_of_quarter]+=_pts;
         total_score+=_pts;
         return;
     }
     void get_foul(int _penalty,char _type,int _time,int _num_of_quarter){//球员犯规
-        foul[_num_of_quarter-1].push_back(Foul(_penalty,_type,_time));
+        foul[_num_of_quarter].push_back(Foul(_penalty,_type,_time));
         total_foul++;
         if(_type=='T'||_type=='U'){
             special_foul++;
@@ -92,7 +92,7 @@ class Headcoach{
         if(_type=='P'){
             //报错，教练不可能是P
         }
-        foul[_num_of_quarter-1].push_back(Foul(_penalty,_type,_time));
+        foul[_num_of_quarter].push_back(Foul(_penalty,_type,_time));
 
         total_foul++;
         if(_type=='C'||_type=='U'){
@@ -132,8 +132,8 @@ public:
 	int team_foul_cnt[4];                                                          //第一节犯规数位team_faul_cnt[0]
     int total_team_score;
 	void get_foul(Player* _player,int _penalty,char _type,int _time,int _num_of_quarter){
-	    team_foul_cnt[min(_num_of_quarter-1,3)]++;
-        if(team_foul_cnt[min(_num_of_quarter-1,3)]>=4){
+	    team_foul_cnt[min(_num_of_quarter,3)]++;
+        if(team_foul_cnt[min(_num_of_quarter,3)]>=4){
             //
         }
 	    _player->get_foul(_penalty,_type,_time,_num_of_quarter);
@@ -150,23 +150,40 @@ public:
     int second_half_timeout_used;
     pair<int,int> ot_timeout[6];
     int ot_timeout_used[6];
-	void get_timeout(int _time,int num_of_quarter){
-        if(num_of_quarter<=1){
+    int get_available_timeout(int _time,int _num_of_quarter){
+        if(_num_of_quarter<=1){
+            return 2-first_half_timeout_used;
+        }
+        else if(_num_of_quarter==2||(_num_of_quarter==3&&_time<480)){
+            return 3-second_half_timeout_used;
+        }
+        else if(_num_of_quarter==3){
+            if(second_half_timeout_used==0){
+                second_half_timeout_used++;
+            }
+            return 3-second_half_timeout_used;
+        }
+        else if(_num_of_quarter>=4){
+            return 1-ot_timeout_used[_num_of_quarter-4];
+        }
+    }
+	void get_timeout(int _time,int _num_of_quarter){
+        if(_num_of_quarter<=1){
             if(first_half_timeout_used<2){
-                first_half_timeout[first_half_timeout_used]=make_pair(_time,num_of_quarter);
+                first_half_timeout[first_half_timeout_used]=make_pair(_time,_num_of_quarter);
                 first_half_timeout_used++;
             }
             else{
                 //不能叫暂停了；
             }
         }
-        else if(num_of_quarter<=3){
-            if(num_of_quarter==3&&_time>=8*60&&second_half_timeout_used==0){
+        else if(_num_of_quarter<=3){
+            if(_num_of_quarter==3&&_time>=8*60&&second_half_timeout_used==0){
                 second_half_timeout[second_half_timeout_used]=make_pair(-1,-1);
                 second_half_timeout_used++;
             }
             if(second_half_timeout_used<3){
-                second_half_timeout[second_half_timeout_used]=make_pair(_time,num_of_quarter);
+                second_half_timeout[second_half_timeout_used]=make_pair(_time,_num_of_quarter);
                 second_half_timeout_used++;
             }
             else{
@@ -174,9 +191,9 @@ public:
             }
         }
         else{
-            if(ot_timeout_used[num_of_quarter-5]==0){
-                ot_timeout[num_of_quarter-5]=make_pair(_time,num_of_quarter);
-                ot_timeout_used[num_of_quarter-5]=1;
+            if(ot_timeout_used[_num_of_quarter-4]==0){
+                ot_timeout[_num_of_quarter-4]=make_pair(_time,_num_of_quarter);
+                ot_timeout_used[_num_of_quarter-4]=1;
             }
         }
         
