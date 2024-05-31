@@ -46,10 +46,11 @@ public:
     vector<Foul> foul[10];//个人犯规0~3=1~4节 4=决胜期
     int total_foul;//总犯规
     int special_foul;
+    bool is_GD;
     Player(string _name,string _num):num(_num),name(_name){
         memset(sum_score_of_quarter,0,sizeof(sum_score_of_quarter));
         total_score=0;
-
+        is_GD=false;
         total_foul=0;
         special_foul=0;
     }
@@ -71,7 +72,10 @@ public:
         else if(_type=='D'){
             special_foul+=2;
         }
-        //！！！！！注意记得判断是否被罚出场
+        
+        if(total_foul>=5||special_foul>=2){
+            is_GD=true;//被罚下
+        }
     }
 
     
@@ -83,6 +87,7 @@ class Headcoach{
     int total_foul;//总犯规
     int special_foul_B;
     int special_foul_C;
+    bool is_GD;
     void get_foul(int _penalty,char _type,int _time,int _num_of_quarter){//教练犯规
         if(_type=='P'){
             //报错，教练不可能是P
@@ -101,6 +106,7 @@ class Headcoach{
         }
         if(special_foul_C>=2||special_foul_B+special_foul_C>=3){
             //！！！！！注意记得判断是否被罚出场
+            is_GD=true;
         }
         
     }
@@ -108,6 +114,7 @@ class Headcoach{
         total_foul=0;
         special_foul_B=0;
         special_foul_C=0;
+        is_GD=false;
     }
     void Print() {
         cout << name << endl;
@@ -125,7 +132,7 @@ public:
 	int team_foul_cnt[4];                                                          //第一节犯规数位team_faul_cnt[0]
     int total_team_score;
 	void get_foul(Player* _player,int _penalty,char _type,int _time,int _num_of_quarter){
-	team_foul_cnt[min(_num_of_quarter-1,3)]++;
+	    team_foul_cnt[min(_num_of_quarter-1,3)]++;
         if(team_foul_cnt[min(_num_of_quarter-1,3)]>=4){
             //
         }
@@ -175,10 +182,8 @@ public:
         
     }
 	Team(){
-        for (int i = 0; i < 5; i++) {
-			score_of_each_quarter[i] = 0;
-			team_foul_cnt[i] = 0;
-		}
+        memset(score_of_each_quarter,0,sizeof(score_of_each_quarter));
+        memset(team_foul_cnt,0,sizeof(team_foul_cnt));
 		first_half_timeout_used = 0;
 		second_half_timeout_used = 0;
         total_team_score=0;
@@ -189,10 +194,9 @@ public:
 		is_first_team = _is_first_team;
 		for (int i = 0; i < _player_number; i++) 	players[i] = _players[i];
 		head_coach = _headcoach;
-		for (int i = 0; i < 5; i++) {
-			score_of_each_quarter[i] = 0;
-			team_foul_cnt[i] = 0;
-		}
+		
+        memset(score_of_each_quarter,0,sizeof(score_of_each_quarter));
+        memset(team_foul_cnt,0,sizeof(team_foul_cnt));
 		first_half_timeout_used = 0;
 		second_half_timeout_used = 0;
         total_team_score=0;
@@ -264,4 +268,7 @@ class Timeout_event:public Event{
         cout<<team<<endl;
     }
 };
+Event *input_event(){
+
+}
 #endif
