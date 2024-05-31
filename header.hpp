@@ -268,7 +268,52 @@ class Timeout_event:public Event{
         cout<<team<<endl;
     }
 };
+Game input_game(){
+    string game_name,game_info,team1,team2;
+    cin>>game_name>>game_info;
+    cin>>team1>>team2;
+    Game tmp(game_name,game_info,team1,team2);
+    return tmp;
+}
+Team input_team(bool is_first_team){
+    string name;
+    int num_of_player;
+    cin>>name>>num_of_player;
+    Player* players[12];
+    for(int i=0;i<num_of_player;i++){
+        string pname,num;
+        cin>>pname>>num;
+        players[i]=new Player(pname,num);
+    }
+    string hname;
+    cin>>hname;
+    Headcoach* headcoach=new Headcoach(hname);
+    Team t(name,is_first_team,players,num_of_player,headcoach);
+}
 Event *input_event(){
-
+    string event_type;
+    int event_time1,event_time2;
+    cin>>event_type;
+    cin>>event_time1>>event_time2;
+    if(event_type=="score"){
+        int players_team;
+        int player_num_in_list;
+        int pts;
+        cin>>players_team>>player_num_in_list>>pts;
+        return new Score_event(event_type,make_pair(event_time1,event_time2),players_team,player_num_in_list,pts);
+    }
+    else if(event_type=="foul"){
+        int players_team;
+        int player_num_in_list;
+        Foul foul;
+        cin>>players_team>>player_num_in_list;
+        cin>>foul.penalty>>foul.type>>foul.time;
+        return new Foul_event(event_type,make_pair(event_time1,event_time2),players_team,player_num_in_list,foul);
+    }
+    else if(event_type=="timeout"){
+        int team;
+        cin>>team;
+        return new Timeout_event(event_type,make_pair(event_time1,event_time2),team);
+    }
 }
 #endif
