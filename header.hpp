@@ -4,7 +4,7 @@
 #include<cstring>
 #include<vector>
 #include<utility>
-
+#include<fstream>
 using namespace std;
 //int mytime;
 
@@ -14,9 +14,9 @@ class Game{
     string game_info;
     string team1;
     string team2;
-    void Print() {
-        cout << game_name << endl << game_info << endl;
-        cout << team1<< endl << team2 << endl;
+    void Print(ofstream& fout) {
+        fout << game_name << endl << game_info << endl;
+        fout << team1<< endl << team2 << endl;
     }
     Game(string _name,string _team1,string _team2,string _info=""):game_name(_name),game_info(_info),team1(_team1),team2(_team2){}
 };
@@ -54,8 +54,8 @@ public:
         total_foul=0;
         special_foul=0;
     }
-    void Print() {
-        cout << name << " " << num << endl;
+    void Print(ofstream& fout) {
+        fout << name << " " << num << endl;
     }
     void get_score(int _pts,int _time,int _num_of_quarter){//球员得分
         points[_num_of_quarter].push_back(Score(_pts,_time));
@@ -116,8 +116,8 @@ class Headcoach{
         special_foul_C=0;
         is_GD=false;
     }
-    void Print() {
-        cout << name << endl;
+    void Print(ofstream& fout) {
+        fout << name << endl;
     }
 };
 class Team {
@@ -141,7 +141,7 @@ public:
     }
 	void get_score(Player* get_score_player,int pts,int mytime,int num_of_quarter) {  //参数顺序仿照player，前置player指针
 		get_score_player->get_score(pts, mytime, num_of_quarter);
-		score_of_each_quarter[num_of_quarter-1] += pts;                               //第一节对应的num_of_quarter=0
+		score_of_each_quarter[min(num_of_quarter,4)] += pts;                               //第一节对应的num_of_quarter=0
         total_team_score+=pts;
 	}
 	pair<int,int> first_half_timeout[2];//make_pair(second,num_of_quarter)
@@ -219,12 +219,12 @@ public:
         total_team_score=0;
         memset(ot_timeout_used,0,sizeof(ot_timeout_used));
 	}
-    void Print() {
-        cout << name << " " << num_of_player << endl;
+    void Print(ofstream& fout) {
+        fout << name << " " << num_of_player << endl;
         for (int i = 0; i < num_of_player; i++) {
-            players[i]->Print();
+            players[i]->Print(fout);
         }
-        head_coach->Print();
+        head_coach->Print(fout);
     }
 };
 
@@ -239,7 +239,7 @@ class Event{
         event_type=_event_type;
         event_time=_event_time;
     }
-    virtual void Print()=0;
+    virtual void Print(ofstream& fout)=0;
     
 };
 class Score_event:public Event{
@@ -252,10 +252,10 @@ class Score_event:public Event{
         players_team=_players_team;
         pts=_pts;
     }
-    void Print(){
-        cout<<event_type<<" "<<event_time.first<<" "<<event_time.second<<" ";
-        cout<<players_team<<" "<<player_num_in_list<<" ";
-        cout<<pts<<endl;
+    void Print(ofstream& fout){
+        fout<<event_type<<" "<<event_time.first<<" "<<event_time.second<<" ";
+        fout<<players_team<<" "<<player_num_in_list<<" ";
+        fout<<pts<<endl;
     }
 };
 class Foul_event:public Event{
@@ -268,10 +268,10 @@ class Foul_event:public Event{
         players_team=_players_team;
         foul=_foul;
     }
-    void Print(){
-        cout<<event_type<<" "<<event_time.first<<" "<<event_time.second<<" ";
-        cout<<players_team<<" "<<player_num_in_list<<" ";
-        cout<<foul.penalty<<" "<<foul.type<<" "<<foul.time<<endl;
+    void Print(ofstream& fout){
+        fout<<event_type<<" "<<event_time.first<<" "<<event_time.second<<" ";
+        fout<<players_team<<" "<<player_num_in_list<<" ";
+        fout<<foul.penalty<<" "<<foul.type<<" "<<foul.time<<endl;
     }
 };
 class Timeout_event:public Event{
@@ -280,56 +280,56 @@ class Timeout_event:public Event{
     Timeout_event(string _event_type,pair<int,int> _event_time,int _team):Event(_event_type,_event_time){
         team=_team;
     }
-    void Print(){
-        cout<<event_type<<" "<<event_time.first<<" "<<event_time.second<<" ";
-        cout<<team<<endl;
+    void Print(ofstream& fout){
+        fout<<event_type<<" "<<event_time.first<<" "<<event_time.second<<" ";
+        fout<<team<<endl;
     }
 };
-Game input_game(){
+Game input_game(ifstream& fin){
     string game_name,game_info,team1,team2;
-    cin>>game_name>>game_info;
-    cin>>team1>>team2;
+    fin>>game_name>>game_info;
+    fin>>team1>>team2;
     Game tmp(game_name,game_info,team1,team2);
     return tmp;
 }
-Team input_team(bool is_first_team){
+Team input_team(ifstream& fin,bool is_first_team){
     string name;
     int num_of_player;
-    cin>>name>>num_of_player;
+    fin>>name>>num_of_player;
     Player* players[12];
     for(int i=0;i<num_of_player;i++){
         string pname,num;
-        cin>>pname>>num;
+        fin>>pname>>num;
         players[i]=new Player(pname,num);
     }
     string hname;
-    cin>>hname;
+    fin>>hname;
     Headcoach* headcoach=new Headcoach(hname);
     Team t(name,is_first_team,players,num_of_player,headcoach);
 }
-Event *input_event(){
+Event *input_event(ifstream& fin){
     string event_type;
     int event_time1,event_time2;
-    cin>>event_type;
-    cin>>event_time1>>event_time2;
+    fin>>event_type;
+    fin>>event_time1>>event_time2;
     if(event_type=="score"){
         int players_team;
         int player_num_in_list;
         int pts;
-        cin>>players_team>>player_num_in_list>>pts;
+        fin>>players_team>>player_num_in_list>>pts;
         return new Score_event(event_type,make_pair(event_time1,event_time2),players_team,player_num_in_list,pts);
     }
     else if(event_type=="foul"){
         int players_team;
         int player_num_in_list;
         Foul foul;
-        cin>>players_team>>player_num_in_list;
-        cin>>foul.penalty>>foul.type>>foul.time;
+        fin>>players_team>>player_num_in_list;
+        fin>>foul.penalty>>foul.type>>foul.time;
         return new Foul_event(event_type,make_pair(event_time1,event_time2),players_team,player_num_in_list,foul);
     }
     else if(event_type=="timeout"){
         int team;
-        cin>>team;
+        fin>>team;
         return new Timeout_event(event_type,make_pair(event_time1,event_time2),team);
     }
 }
