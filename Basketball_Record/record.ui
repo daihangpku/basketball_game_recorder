@@ -1,0 +1,3106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>record</class>
+ <widget class="QWidget" name="record">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1332</width>
+    <height>813</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="team2_member4">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>260</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="team2_member7">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>350</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手7</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>120</y>
+     <width>30</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;号&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;码&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="team2_member10">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>440</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手10</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="team2_member9">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>410</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="team2_member11">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>470</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手11</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="team2_member12">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>500</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手12</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="team2_member5">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>290</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手5</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="team2_name">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>70</y>
+     <width>281</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;队伍二&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="team2_member6">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>320</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="team2_member3">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>230</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手3</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>120</y>
+     <width>30</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;犯&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;规&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="team2_member2">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>200</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>120</y>
+     <width>30</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;得&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;分&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="team2_member8">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>380</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手8</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="team2_widget">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>170</y>
+     <width>212</width>
+     <height>392</height>
+    </rect>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="rowCount">
+    <number>13</number>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>2</number>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>30</number>
+   </attribute>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderMinimumSectionSize">
+    <number>2</number>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>30</number>
+   </attribute>
+   <attribute name="verticalHeaderHighlightSections">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderStretchLastSection">
+    <bool>false</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="0" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="0" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="0" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="1" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="1" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="1" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="1" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="2" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="2" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="2" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="2" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="3" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="3" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="3" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="3" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="3" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="4" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="4" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="4" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="4" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="4" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="4" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="5" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="5" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="5" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="5" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="5" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="5" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="5" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="6" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="6" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="6" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="6" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="6" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="6" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="6" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="7" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="7" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="7" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="7" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="7" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="7" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="7" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="8" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="8" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="8" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="8" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="8" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="8" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="8" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="9" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="9" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="9" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="9" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="9" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="9" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="9" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="10" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="10" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="10" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="10" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="10" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="10" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="10" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="11" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="11" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="11" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="11" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="11" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="11" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="11" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="12" column="0">
+    <property name="text">
+     <string> ---</string>
+    </property>
+   </item>
+   <item row="12" column="1">
+    <property name="text">
+     <string> ---</string>
+    </property>
+   </item>
+   <item row="12" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="12" column="3">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="12" column="4">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="12" column="5">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+   <item row="12" column="6">
+    <property name="text">
+     <string> --- </string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="team2_member1">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>170</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选手1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="get1">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>710</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>得1分</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="foul">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>710</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>犯规</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="get2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>710</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>得2分</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="get3">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>710</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>得3分</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="timeout">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>710</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>暂停</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reset">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>710</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_33">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>380</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_34">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>350</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_35">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>290</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_36">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>260</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_37">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>320</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_38">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>230</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_39">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>200</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_40">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>170</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_41">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>500</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_42">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>470</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_43">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>440</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_44">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>410</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>1300</x>
+     <y>120</y>
+     <width>31</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;在&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;场&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="quarternum">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>50</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;当前节数：第1节&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="timeout_team1">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>700</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>队伍一</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="timeout_team2">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>730</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>队伍二</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="team2_coach">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>530</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>教练</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_foul" native="true">
+   <property name="geometry">
+    <rect>
+     <x>485</x>
+     <y>340</y>
+     <width>361</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="foul_man">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;犯规对象&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="foul_player">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>80</y>
+      <width>61</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>队员</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="foul_coach">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>130</y>
+      <width>61</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>教练</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="foul_detail">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;犯规类型及罚则&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="player_U">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>U</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="player_T">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>110</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>T</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="player_P">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>80</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>P</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="D">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>170</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="coach_B">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>90</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="coach_C">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="foul_0">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>80</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>罚球0次</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="foul_1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>110</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>罚球1次</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="foul_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>140</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>罚球2次</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="foul_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>170</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>罚球3次</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="seefoul_cate">
+    <property name="geometry">
+     <rect>
+      <x>85</x>
+      <y>60</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="seefoul_num">
+    <property name="geometry">
+     <rect>
+      <x>267</x>
+      <y>56</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTableWidget" name="team2_total">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>650</y>
+     <width>284</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>94</number>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>总得分</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>本节全队犯规</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>当前剩余暂停</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTableWidget" name="team2_total_quarter">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>600</y>
+     <width>284</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>1</number>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>50</number>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderHighlightSections">
+    <bool>false</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>得分</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>第一节</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>第二节</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>第三节</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>第四节</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>决胜期</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item row="0" column="4">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>560</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;总计&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="will_next_quarter">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>70</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下一节</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="confirm_to_next_quarter" native="true">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>40</y>
+     <width>211</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="next_quarter">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="not_next_quarter">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;进入下一节？&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="select_player">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>660</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;请选择球员&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="begin">
+   <property name="geometry">
+    <rect>
+     <x>535</x>
+     <y>260</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>开始记录</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>331</width>
+     <height>861</height>
+    </rect>
+   </property>
+   <widget class="QTableWidget" name="team1_total">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>650</y>
+      <width>284</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>94</number>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>总得分</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>本节全队犯规</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>当前剩余暂停</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="team1_coach">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>530</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>教练</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member12">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>500</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手12</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="smalltime_continue">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>760</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>继续</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>700</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;进攻已经时长&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>260</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member10">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>440</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="team1_name">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;队伍一&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_30">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>290</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>170</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>700</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;本节已经时长&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_24">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>470</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_31">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>170</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_29">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>350</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>320</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手6</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_21">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>500</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bigtime_freeze">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>760</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>暂停</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>120</y>
+      <width>30</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;号&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;码&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+    <property name="openExternalLinks">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="team1_total_quarter">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>600</y>
+      <width>284</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>1</number>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>50</number>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderHighlightSections">
+     <bool>false</bool>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>得分</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>第一节</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>第二节</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>第三节</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>第四节</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>决胜期</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="smalltime">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>730</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#020202;&quot;&gt;00.00&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="smalltime_freeze">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>760</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>暂停</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bigtime_subtract">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>750</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-0.3</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_25">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>380</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>350</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="smalltime_reset">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>780</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>重置</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_32">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>200</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="end_record">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>结束记录</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_28">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>260</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>290</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bigtime">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>730</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;00:00.00&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>230</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手3</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_27">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>230</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>30</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;犯&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;规&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+    <property name="openExternalLinks">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_22">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>410</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bigtime_plus">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>730</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+0.3</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="team1_widget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>170</y>
+      <width>212</width>
+      <height>392</height>
+     </rect>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="rowCount">
+     <number>13</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>2</number>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>30</number>
+    </attribute>
+    <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderMinimumSectionSize">
+     <number>2</number>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>30</number>
+    </attribute>
+    <attribute name="verticalHeaderHighlightSections">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderStretchLastSection">
+     <bool>false</bool>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新建行</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>新建列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新建列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新建列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新建列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新建列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新建列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新建列</string>
+     </property>
+     <property name="font">
+      <font>
+       <kerning>true</kerning>
+      </font>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="1" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="2" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="2" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="3" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="3" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="4" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="4" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="5" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="5" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="6" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="6" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="7" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="7" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="7" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="8" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="8" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="8" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="9" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="9" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="9" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="10" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="10" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="10" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="10" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="10" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="10" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="10" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="11" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="11" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="11" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="11" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="11" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="11" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="11" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="12" column="0">
+     <property name="text">
+      <string> ---</string>
+     </property>
+    </item>
+    <item row="12" column="1">
+     <property name="text">
+      <string> ---</string>
+     </property>
+    </item>
+    <item row="12" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="12" column="3">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="12" column="4">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="12" column="5">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+    <item row="12" column="6">
+     <property name="text">
+      <string> --- </string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="bigtime_continue">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>760</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>继续</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member9">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>410</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手9</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_26">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>320</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="smalltime_plus">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>730</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+0.3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>120</y>
+      <width>30</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;在&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;场&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+    <property name="openExternalLinks">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member8">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>380</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="team1_member11">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>470</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选手11</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="smalltime_subtract">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>750</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-0.3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>120</y>
+      <width>30</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;得&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;分&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+    <property name="openExternalLinks">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>560</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;总计&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_23">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>440</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="not_end">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>41</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="comfirm_end">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>41</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
