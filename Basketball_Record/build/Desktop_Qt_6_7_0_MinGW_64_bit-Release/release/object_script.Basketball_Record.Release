@@ -1,0 +1,15 @@
+release/help.o
+release/main.o
+release/mainwindow.o
+release/record.o
+release/record_mode.o
+release/replay.o
+release/save.o
+release/qrc_background.o
+release/qrc_qmake_qmake_qm_files.o
+release/moc_help.o
+release/moc_mainwindow.o
+release/moc_record.o
+release/moc_record_mode.o
+release/moc_replay.o
+release/moc_save.o

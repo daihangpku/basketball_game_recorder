@@ -1,0 +1,15 @@
+debug/help.o
+debug/main.o
+debug/mainwindow.o
+debug/record.o
+debug/record_mode.o
+debug/replay.o
+debug/save.o
+debug/qrc_background.o
+debug/qrc_qmake_qmake_qm_files.o
+debug/moc_help.o
+debug/moc_mainwindow.o
+debug/moc_record.o
+debug/moc_record_mode.o
+debug/moc_replay.o
+debug/moc_save.o

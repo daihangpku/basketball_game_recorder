@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>replay</class>
+ <widget class="QWidget" name="replay">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1291</width>
+    <height>752</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>1221</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <widget class="QTextBrowser" name="screen">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>1131</width>
+      <height>591</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="out2">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>610</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导出</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>640</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>暂停</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="continue_2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>640</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>继续</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="all_show">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>640</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>显示全部</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="begin">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>640</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="replayy">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>640</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>观看回放</string>
+    </property>
+   </widget>
+   <zorder>stop</zorder>
+   <zorder>continue_2</zorder>
+   <zorder>screen</zorder>
+   <zorder>out2</zorder>
+   <zorder>all_show</zorder>
+   <zorder>begin</zorder>
+   <zorder>replayy</zorder>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>19</y>
+     <width>1271</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>563</x>
+      <y>0</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;选择比赛&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="see">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>650</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>生成战报</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="choose">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>80</y>
+      <width>871</width>
+      <height>541</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <zorder>widget</zorder>
+  <zorder>widget_2</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
