@@ -1,5 +1,5 @@
-# QTbasketball_game
-这不重要队功能设计——篮球比赛记录回放系统
+# basketball_game_recorder
+篮球比赛记录回放系统
 
     一、设计背景
 
